@@ -1,0 +1,70 @@
+[
+    {
+        "user_message": "hi",
+        "timestamp": "2025-03-01 13:55:50"
+    },
+    {
+        "bot_message": "What's your name?",
+        "timestamp": "2025-03-01 13:55:50"
+    },
+    {
+        "user_message": "Ashish Singh Chauhan",
+        "timestamp": "2025-03-01 13:55:50"
+    },
+    {
+        "bot_message": "Please provide your email.",
+        "timestamp": "2025-03-01 13:55:50"
+    },
+    {
+        "user_message": "ashish.py@maxtratechnologies.net",
+        "timestamp": "2025-03-01 13:55:50"
+    },
+    {
+        "bot_message": "Enter your mobile number.",
+        "timestamp": "2025-03-01 13:55:50"
+    },
+    {
+        "user_message": "9090909090",
+        "timestamp": "2025-03-01 13:55:50"
+    },
+    {
+        "bot_message": "Enter your country code.",
+        "timestamp": "2025-03-01 13:55:50"
+    },
+    {
+        "user_message": "+91",
+        "timestamp": "2025-03-01 13:55:50"
+    },
+    {
+        "bot_message": null,
+        "timestamp": "2025-03-01 13:55:50"
+    },
+    {
+        "bot_message": "Which day are you free for a meeting?",
+        "timestamp": "2025-03-01 13:55:50"
+    },
+    {
+        "user_message": "Today",
+        "timestamp": "2025-03-01 13:55:50"
+    },
+    {
+        "bot_message": "What's your available time for the meeting?",
+        "timestamp": "2025-03-01 13:55:50"
+    },
+    {
+        "user_message": "now",
+        "timestamp": "2025-03-01 13:55:50"
+    },
+    {
+        "bot_message": "What can we help you with at Maxtra Technologies?",
+        "timestamp": "2025-03-01 13:55:50"
+    },
+    {
+        "user_message": "nothing else",
+        "timestamp": "2025-03-01 13:55:50"
+    },
+    {
+        "query": "nothing else",
+        "timestamp": "2025-03-01 13:55:50"
+    }
+]

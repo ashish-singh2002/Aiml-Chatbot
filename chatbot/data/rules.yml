@@ -1,0 +1,24 @@
+version: "2.0"
+rules:
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye  
+
+  - rule: Activate Registration Form
+    steps:
+      - intent: greet
+      - action: registration_form
+      - active_loop: registration_form
+
+  - rule: Submitting Form
+    condition:
+      - active_loop: registration_form
+    steps:
+      - action: registration_form
+      - slot_was_set:
+          - requested_slot: null
+      - active_loop: null
+      - action: submit_registration_form
+      - action: utter_end_message
+      - action: action_resume_conversation

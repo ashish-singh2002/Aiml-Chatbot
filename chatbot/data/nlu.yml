@@ -1,0 +1,42 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: querry
+  examples: |
+    - I need more information about this software.
+    - What are the features of your software?
+    - I need to understand how Volochain works.
+- intent: request_registration
+  examples: |
+    - I want to register
+    - Sign me up
+    - register
+- intent: nlu_fallback
+  examples: |
+    - Ashish Singh Chauhan   

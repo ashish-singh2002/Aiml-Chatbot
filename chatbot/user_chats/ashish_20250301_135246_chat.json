@@ -1,0 +1,94 @@
+[
+    {
+        "user_message": "hi",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "bot_message": "What's your name?",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "user_message": "354345",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "bot_message": "Please provide a valid name with at least 2 alphabetic characters",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "bot_message": "What's your name?",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "user_message": "ashish",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "bot_message": "Please provide your email.",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "user_message": "adhsdf",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "bot_message": null,
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "bot_message": "Please provide your email.",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "user_message": "ashish@gmail.com",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "bot_message": "Enter your mobile number.",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "user_message": "9580130424",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "bot_message": "Enter your country code.",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "user_message": "+1",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "bot_message": null,
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "bot_message": "Which day are you free for a meeting?",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "user_message": "sunday",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "bot_message": "What's your available time for the meeting?",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "user_message": "now",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "bot_message": "What can we help you with at Maxtra Technologies?",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "user_message": "nothing else",
+        "timestamp": "2025-03-01 13:52:46"
+    },
+    {
+        "query": "nothing else",
+        "timestamp": "2025-03-01 13:52:46"
+    }
+]

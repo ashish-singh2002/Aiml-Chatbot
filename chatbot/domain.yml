@@ -1,0 +1,93 @@
+version: "2.0"
+intents:
+  - goodbye
+  - greet
+  - nlu_fallback
+  - querry  
+  - request_registration
+
+entities:
+  - name
+  - email
+  - mobile
+  - country_code
+  - free_day
+  - available_time
+  - querry  
+
+slots:
+  name:
+    type: text
+    influence_conversation: false
+  email:
+    type: text
+    influence_conversation: false
+  mobile:
+    type: text
+    influence_conversation: false
+  country_code:
+    type: text
+    influence_conversation: false
+  free_day:
+    type: text
+    influence_conversation: false
+  available_time:
+    type: text
+    influence_conversation: false
+
+  querry:
+    type: text
+    influence_conversation: false
+
+
+responses:
+  utter_greet:
+    - text: "Hello! What is your name?"
+  utter_ask_name:
+    - text: "What's your name?"
+  utter_ask_email:
+    - text: "Please provide your email."
+  utter_ask_mobile:
+    - text: "Enter your mobile number."
+  utter_ask_country_code:
+    - text: "Enter your country code."
+  utter_ask_free_day:
+    - text: "Which day are you free for a meeting?"
+  utter_ask_available_time:
+    - text: "What's your available time for the meeting?"
+  utter_ask_querry:
+    - text: "What can we help you with at Maxtra Technologies?"
+  utter_submit:
+    - text: "Form submitted successfully."
+  utter_goodbye:
+    - text: "Bye"
+  utter_end_message:
+    - text: "Thank you!! Our team will contact you soon."
+
+forms:
+  registration_form:
+    required_slots:
+      name:
+        - type: from_text
+      email:
+        - type: from_text
+      mobile:
+        - type: from_text
+      country_code:
+        - type: from_text
+      free_day:
+        - type: from_text
+      available_time:
+        - type: from_text
+      querry:
+        - type: from_text
+
+actions:
+  - submit_registration_form  
+  - utter_goodbye
+  - validate_registration_form
+  - action_resume_conversation
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false
